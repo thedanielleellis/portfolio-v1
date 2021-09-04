@@ -6,7 +6,7 @@ import code from './../../img/code.png'
 
 const Projects = () => {
     return ( 
-        <div className={classes.Projects}>
+        <div className={classes.Projects} id="projects">
             <PageHeader title={'My Work'}/>
             <p>
                 I'm a life long learner and enjoy learning new stuff! Below are some programming languages, toolkits, frameworks and librabries that I worked with and like. 

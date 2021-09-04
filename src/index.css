@@ -35,3 +35,7 @@ a {
   font-size: 16px;
   color: white;
 }
+
+html {
+  scroll-behavior: smooth;
+}
