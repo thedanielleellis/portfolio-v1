@@ -1,0 +1,7 @@
+.Projects {
+    background-color: #141313;
+}
+
+.Projects .Container {
+    display: flex;
+}
