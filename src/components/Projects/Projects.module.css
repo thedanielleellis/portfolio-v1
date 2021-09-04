@@ -13,3 +13,20 @@
     margin-right: 10%;
     justify-content: space-around;
 }
+
+@media (max-width: 910px) {
+    .Projects .Container .img {
+        width: 80%;
+        padding-right: 20%;
+    }
+
+    .Projects p{
+        width: 80%;
+        padding-left: 10%;
+    }
+
+    .Projects .Container {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}

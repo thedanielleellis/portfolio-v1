@@ -9,10 +9,16 @@
 .Container hr {
     position: absolute;
     left: 0;
-    width: 124px;
+    width: 12vw;
     border: 1px solid purple;
 }
 
 .Container h1 {
     color: white;
+}
+
+@media (max-width: 375px) {
+    .Container hr {
+       display: none; 
+    }
 }
