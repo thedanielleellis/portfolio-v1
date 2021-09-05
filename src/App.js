@@ -7,7 +7,6 @@ import Quote from './components/Quote/Quote.js'
 import Blog from './components/Blog/Blog.js'
 
 
-
 function App() {
   return (
     <div className="App">
@@ -20,6 +19,6 @@ function App() {
       <Contact/>
     </div>
   );
-}
+} 
 
 export default App;
