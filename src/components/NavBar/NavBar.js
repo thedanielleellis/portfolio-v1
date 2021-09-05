@@ -1,6 +1,7 @@
 import classes from './NavBar.module.css'
 import logo from './../../img/danielle.png'
 
+
 const NavBar = () => {
     return (
         <div className={classes.NavBar}>
@@ -14,7 +15,10 @@ const NavBar = () => {
                         <a href="/#about">About</a>
                     </li>
                     <li>
-                        <a href="/#projects">Projects</a>
+                        <a href="/#projects">My Work</a>
+                    </li>
+                    <li>
+                        <a href="/#contact">Resume</a>
                     </li>
                     <li>
                         <a href="/#contact">Contact</a>

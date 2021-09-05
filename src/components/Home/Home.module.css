@@ -35,3 +35,9 @@
     right: 10%;
     top: 20%;
 }
+
+h1 {
+    font-weight: 900;
+    font-size: calc(1rem + 3vw);
+    color: black;
+  }

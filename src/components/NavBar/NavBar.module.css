@@ -1,9 +1,10 @@
- .Logo img{
+ .Logo img {
     width: auto;
     max-width: 100%;
     max-height: 300px;
     padding: 22px 20px;
-    float: left;   
+    float: left;  
+ 
  }
 
  .NavBar {
@@ -33,9 +34,13 @@
 
  .NavBar nav ul li a {
      text-decoration: none;
-     color: white;
+     color: black;
  }
 
  .NavBar nav a:hover {
     border-bottom: 5px solid #d09b7a;
  }
+
+ 
+
+

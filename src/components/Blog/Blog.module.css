@@ -1,14 +1,14 @@
-.Quote {
-    background-color: #e6d3c6;
+.Blog {
+    background-color: #d09f8f;
     background-position: center;
     padding-bottom: 5%;
 }
 
-.Quote .Container {
+.Blog .Container {
     display: flex;
 }
 
-.Quote .Container .Text {
+.Blog .Container .Text {
     width: 47%;
     margin-left: 3%;
 }
