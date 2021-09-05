@@ -1,11 +1,9 @@
 import classes from './About.module.css'
-import PageHeader from './../PageHeader/PageHeader.js'
 import me from './../../img/me.jpg'
 
 const About = () => {
     return ( 
         <div className={classes.AboutMe} id="about">
-            <PageHeader title={'About Me'}/>
             <div className={classes.Container}>
                 <div className={classes.Text}>
                     <h2>Hello! I am Danielle</h2>

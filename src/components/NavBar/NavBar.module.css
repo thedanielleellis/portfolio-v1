@@ -1,19 +1,28 @@
+ .Logo img{
+    width: auto;
+    max-width: 100%;
+    max-height: 300px;
+    padding: 22px 20px;
+    float: left;   
+ }
+
  .NavBar {
-     background: #181818;
-     height: 80px;
+     background: transparent;
+     height: 90px;
      width: 100%;
      position: fixed;
      z-index: 999;
-     opacity: 0.9;
      display: flex;
-     justify-content: center;
-     align-items: center;
+     align-items: center;  
  }
  
+
  .NavBar nav ul {
      list-style: none;
      margin: 0;
      padding: 0;
+     display: flex;
+     float: right;
  }
 
  /* Makes nav bar horizonal */
@@ -27,6 +36,6 @@
      color: white;
  }
 
- .NavBar a:hover {
-    border-bottom: 5px solid #8c1cd1;
+ .NavBar nav a:hover {
+    border-bottom: 5px solid #d09b7a;
  }

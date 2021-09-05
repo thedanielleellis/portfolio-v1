@@ -1,5 +1,7 @@
 .AboutMe {
-    background-color: black;
+    background-image: url('./../../img/about.png');
+    background-color: #e6d3c6;
+    background-position: center;
     padding-bottom: 5%;
 }
 

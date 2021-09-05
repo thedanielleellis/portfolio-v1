@@ -1,7 +1,7 @@
 .Home {
-    background: rgb(127,172,8);
-    background: linear-gradient(90deg, rgba(127,172,8,1) 0%, rgba(247,62,226,1) 80%);    display: flex;
-    height: 85vh;
+    background: #f1eae0;
+    display: flex;
+    height: 100vh;
     padding-top: 80;
     position: relative;
 }
@@ -11,6 +11,7 @@
     top: 15%;
     left: 2%;
     color: white;
+
 }
 
 .Home .Container h1 {
@@ -21,11 +22,16 @@
     font-size: calc(1.7rem + 3vw);
 }
 
-.Home .Code {
-    width: 20%;
-    max-width: 150px;
+.Home .Circle {
+    height: auto;
+    max-width: 400px;
     position: absolute;
     bottom: 0;
-    left: 2%;
 }
 
+.Home .Headshot {
+    height: 70%;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}
