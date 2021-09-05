@@ -2,18 +2,26 @@
     background-image: url('./../../img/about.png');
     background-color: #e6d3c6;
     background-position: center;
+    background-size: cover;
+
     padding-bottom: 5%;
     height: 100vh;
+    
 
 }
 
 .AboutMe .Container {
     display: flex;
+
+    
 }
 
 .AboutMe .Container .Text {
-    width: 47%;
-    margin-left: 3%;
+    width: 40%;
+    margin-left: 4%;
+    text-align: center;
+    padding-top: 80px;
+    
 }
 
 .AboutMe .Container .Text h2 {
@@ -25,6 +33,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 
@@ -32,6 +41,8 @@
     width: 70%;
     max-width: 500px;
     border-radius: 10%;
+    margin-right: -25%;
+    height: 60%;
 }
 
 @media (max-width: 500px){
