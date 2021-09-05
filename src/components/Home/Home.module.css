@@ -8,17 +8,15 @@
 
 .Home .Container {
     position: absolute;
-    top: 15%;
-    left: 2%;
-    color: white;
-
+    top: 20%;
+    left: 4%;
 }
 
 .Home .Container h1 {
     margin: 0;
 }
 
-.Home .Container .Hello {
+.Home .Container .Welcome {
     font-size: calc(1.7rem + 3vw);
 }
 
@@ -27,17 +25,23 @@
     max-width: 400px;
     position: absolute;
     bottom: 0;
+    right: -7%;
+
 }
 
 .Home .Headshot {
     height: 70%;
     position: absolute;
-    right: 10%;
+    right: 4%;
     top: 20%;
 }
 
 h1 {
     font-weight: 900;
     font-size: calc(1rem + 3vw);
+    color: black;
+  }
+
+  p {
     color: black;
   }
