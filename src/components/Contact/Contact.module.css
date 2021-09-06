@@ -1,27 +1,55 @@
 .Contact {
     background: #f1eae0;
     height: 300px;
-    display: flex;
     align-items: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
     
 }
 
 .Contact .ContactIcons {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    font-size: 0;
+}
+
+.Contact .ContactIconsWrapper {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.Contact .ContactIconsWrapper a {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: auto;
+}
+
+.Contact .ContactIconsWrapper img {
+    height: 50px;
+    width: 50px;
+    transition: all .2s ease-in-out;
+}
+
+.Contact .ContactIconsWrapper img:hover {
+    transform: scale(1.5);
+
 }
 
 .Contact .ContactIcons svg path {
    cursor: pointer;
 }
 
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    transform: translate(0, 0);
+
+.EmailIcon {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    max-width: 100%;
+    font-size: 55px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 0 auto 10px;
 }

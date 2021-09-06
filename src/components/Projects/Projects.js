@@ -9,9 +9,10 @@ const Projects = () => {
     return ( 
         <div className={classes.Projects} id="projects">
             <div className={classes.PageHeader}>
-            <PageHeader title={'My Work'} />
+            <PageHeader title={'Featured Work'} />
             <p>
-                I'm a life long learner and enjoy learning new stuff! Below are some programming languages, toolkits, frameworks and librabries that I worked with and like. 
+                Technical Skills:  Ruby, Javascript, HTML CSS Rails, Sinatra, React, Redux PostgreSQL, SQL vffvfnslvjfs v hiosh ;sbj ;s sj fklh bklsb sb sb;bsb ksb  fxi
+
             </p>
             </div>
             <div className={classes.Container}>
