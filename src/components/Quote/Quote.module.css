@@ -1,7 +1,7 @@
 .Quote {
     background-color: #e6d3c6;
     background-position: center;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 
 .Quote .Container {
@@ -9,6 +9,15 @@
 }
 
 .Quote .Container .Text {
-    width: 47%;
-    margin-left: 3%;
+    width: 100%;
+    color: #b45118;
+    padding-top: 2%;
 }
+
+.Quote p {
+    font-weight: 600;
+    font-size: calc(0.85rem + 1vw);
+    color: #b45118;
+    text-align: center;
+
+  }

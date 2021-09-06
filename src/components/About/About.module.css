@@ -25,6 +25,11 @@
 
 .AboutMe .Container .Text h2 {
     font-weight: 900;
+    color: black;
+}
+
+.AboutMe .Container .Text p {
+    color: black;
 }
 
 .AboutMe .Container .Photo {
