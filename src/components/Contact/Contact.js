@@ -1,5 +1,7 @@
 import {FaLinkedinIn, FaBloggerB, FaGithub} from "react-icons/fa";
 import classes from './Contact.module.css'
+import 'font-awesome/css/font-awesome.min.css';
+
 
 const handleURL = (url) => {
     return () => window.open(url, "_blank")
@@ -8,6 +10,8 @@ const handleURL = (url) => {
 const Contact = () => {
     return ( 
         <div className={classes.Contact} id="contact">
+            <i className="fa fa-paper-plane"></i>
+
             <div className={classes.ContactIcons}>
                 <FaLinkedinIn color='white' size='30px' style={{padding: '1%'}}
                 onClick={handleURL('https://www.linkedin.com/in/thedanielleellis/')} />
