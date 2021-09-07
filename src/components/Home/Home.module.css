@@ -1,39 +1,72 @@
 .Home {
     background: #f1eae0;
-    display: flex;
+    background-position: center;
+
+    /*display: flex;
     height: 100vh;
-    padding-top: 80;
-    position: relative;
+    position: relative; */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
 
 .Home .Container {
+    display: flex;
+    
+    /*
     position: absolute;
     top: 20%;
     left: 4%;
+    display: flex;
+    display: inline-block; */
 }
 
+/*
 .Home .Container h1 {
     margin: 0;
-}
+} */
 
 .Home .Container .Welcome {
-    font-size: calc(1.7rem + 3vw);
+    width: 70%;
+    margin-left: 4%;
+    text-align: center;
+    padding-top: 15%;
+
 }
 
 .Home .Circle {
     height: auto;
     max-width: 400px;
     position: absolute;
-    bottom: 0;
-    right: 0%;
-
+    right: 1%;
+    top: 35%;
+    width: 50%;
 }
 
-.Home .Headshot {
-    height: 70%;
+
+.Home .HeaderPhotos {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+    display:inline-block;
+    
+    /*
+    height: auto;
+    max-width: 400px;
     position: absolute;
     right: 4%;
     top: 20%;
+    width: 50%; */
+
+}
+
+.Home .HeaderPhotos .Headshot {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 20%;
+    margin-right: -2%;
 }
 
 h1 {
@@ -43,12 +76,26 @@ h1 {
   }
 
 
-  .Home p {
+  .Home .HeaderPhotos p {
     color: black;
-    text-align:right;
     line-height: 1px;
     position: relative;
     top: 6px;
+    margin-top: -3px;
+  } 
 
+  @media (max-width: 500px){
+    .Home .Container {
+        flex-direction: column;
+        align-items: center;
+    }
 
-  }
+    .Home .Container .Text {
+        width: 80%;
+    }
+
+    .Home .Container .HeaderPhotos {
+        width: 70%;
+    }
+    
+}

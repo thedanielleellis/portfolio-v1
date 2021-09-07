@@ -10,10 +10,6 @@ const Projects = () => {
         <div className={classes.Projects} id="projects">
             <div className={classes.PageHeader}>
             <PageHeader title={'Featured Work'} />
-            <p>
-                Technical Skills:  Ruby, Javascript, HTML CSS Rails, Sinatra, React, Redux PostgreSQL, SQL vffvfnslvjfs v hiosh ;sbj ;s sj fklh bklsb sb sb;bsb ksb  fxi
-
-            </p>
             </div>
             <div className={classes.Container}>
                 <div className={classes.PortfolioRow}>

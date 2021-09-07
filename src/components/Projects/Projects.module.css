@@ -1,6 +1,6 @@
 .Projects {
     background-color: #e6d3c6;
-    height: 100vh;
+    height: 80vh;
 }
 
 .Projects .Container {
@@ -12,8 +12,8 @@
     padding-top: -10%;
     padding-bottom: 2%;
     color: #b45118;
-    margin: 0 50px 0 50px;
-
+    margin-left: 8vh;
+    margin-right: 8vh;
 }
 
 /******* Grid ***********/
@@ -50,10 +50,8 @@
 
 .PortfolioInfo {
     text-align: center;
+    line-height: 1%;
 }
-
-
-
 
 
 
@@ -64,6 +62,16 @@
     }
 
     .Projects p{
+        width: 80%;
+        padding-left: 10%;
+    }
+
+    .Projects .Container {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .Projects p {
         width: 80%;
         padding-left: 10%;
     }

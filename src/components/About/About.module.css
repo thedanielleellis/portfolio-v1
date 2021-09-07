@@ -1,6 +1,5 @@
 .AboutMe {
-    background-image: url('./../../img/about.png');
-    background-color: #e6d3c6;
+    background-color: #d09b7a;
     background-position: center;
     background-size: cover;
     padding-bottom: 5%;
@@ -11,8 +10,6 @@
 
 .AboutMe .Container {
     display: flex;
-
-    
 }
 
 .AboutMe .Container .Text {
@@ -37,16 +34,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    padding-top: 10%;
 }
-
 
 .AboutMe .Container .Photo .Me {
     width: 70%;
-    max-width: 500px;
+    max-width: 400px;
     border-radius: 10%;
     margin-right: -25%;
-    height: 60%;
 }
 
 @media (max-width: 500px){
@@ -56,7 +51,7 @@
     }
 
     .AboutMe .Container .Text {
-        width: 80;
+        width: 80%;
     }
 
     .AboutMe .Container .Photo {

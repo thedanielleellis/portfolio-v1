@@ -1,24 +1,29 @@
 import classes from './Home.module.css'
-import circle from './../../img/circle.png'
 import headshot from './../../img/headshot.png'
+import WaveLine from './WaveLine.js'
+import {motion} from 'framer-motion'
 
 const Home = () => {
     return (
         <div className={classes.Home} id="home">
+            <WaveLine/>
             <div className={classes.Container}>
-                <h1 className={classes.Welcome}>Building Robust Applications </h1>
-                <h1>For Upcoming Generations</h1>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-
-
-                <p>Danielle Ellis, MBA</p>
-                <p>Software Engineer</p>
+                <div className={classes.Welcome}>
+                    <h1>WELCOME!</h1>
+                    <h1>I Building Robust Applications For Next Gens </h1>
+                    
+                </div>
+            <div className={classes.HeaderPhotos}>
+                <motion.img className={classes.Headshot} 
+                    src={headshot} alt="headshot"
+                    initial={{scale: 0}}
+                    animate={{scale: 1}}
+                    transition={{delay: 1.6}}>
+                </motion.img>
+                    <p>Danielle Ellis, MBA</p>
+                    <p>Software Engineer</p>
             </div>
-            <img className={classes.Circle} src={circle} alt="circle"></img>
-            <img className={classes.Headshot} src={headshot} alt="headshot"></img>
+        </div>
         </div>
     );
 }
