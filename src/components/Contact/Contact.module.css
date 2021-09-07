@@ -53,3 +53,17 @@
     position: relative;
     margin: 0 auto 10px;
 }
+
+.Footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #cf9f8e;
+    color: white;
+    text-align: left;
+    opacity: 90%;
+  }
+
+  .Footer p {
+      margin-left: 2%;
+  }

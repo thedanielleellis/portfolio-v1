@@ -37,6 +37,9 @@ const Contact = () => {
                     </a>
                 </div>
             </div>
+            <div className={classes.Footer}>
+                <p>© 2021 Danielle Ellis</p>
+            </div>
         </div>
     );
 }
