@@ -19,12 +19,12 @@ const Projects = () => {
                 <div className={classes.PortfolioRow}>
                     <div className={classes.PortfolioWrapper}>
                         <div className={classes.PortfolioItem}>
-                            <div className={classes.PortfolioOverlay}></div>
                                 <div className={classes.Links}>
                                     <div className={classes.ImageLink}>
-                                    <img src={portfolio} alt="portfolio project"></img>
+                                        <a href="https://dev.to/thedanielleellis"><img src={portfolio} alt="portfolio project" target="_blank" rel="noreferrer"></img></a>
                                     <div className={classes.PortfolioInfo}>
-                                        <h3>TestApp</h3>
+                                        <h3>Portfolio Website Early Version</h3>
+                                        <h4>Ruby/Rails React</h4>
                                     </div>
                                     </div>
                                 </div>
@@ -32,12 +32,11 @@ const Projects = () => {
                     </div>
                     <div className={classes.PortfolioWrapper}>
                         <div className={classes.PortfolioItem}>
-                            <div className={classes.PortfolioOverlay}></div>
                                 <div className={classes.Links}>
                                     <div className={classes.ImageLink}>
-                                    <img src={hiddengems} alt="hidden gems project"></img>
+                                    <a href="https://dev.to/thedanielleellis"><img src={hiddengems} alt="hidden gems project" target="_blank" rel="noreferrer"></img></a>
                                     <div className={classes.PortfolioInfo}>
-                                        <h3>TestApp</h3>
+                                        <h3>Hidden Gems Mentorship</h3>
                                     </div>
                                     </div>
                                 </div>
@@ -45,12 +44,11 @@ const Projects = () => {
                     </div>
                     <div className={classes.PortfolioWrapper}>
                         <div className={classes.PortfolioItem}>
-                            <div className={classes.PortfolioOverlay}></div>
                                 <div className={classes.Links}>
                                     <div className={classes.ImageLink}>
-                                    <img src={virtualdance} alt="virtual dance project"></img>
+                                    <a href="https://dev.to/thedanielleellis"><img src={virtualdance} alt="virtual dance project" target="_blank" rel="noreferrer"></img></a>
                                     <div className={classes.PortfolioInfo}>
-                                        <h3>TestApp</h3>
+                                        <h3>Virtual Dance Machine</h3>
                                     </div>
                                     </div>
                                 </div>

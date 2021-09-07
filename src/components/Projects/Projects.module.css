@@ -1,7 +1,6 @@
 .Projects {
     background-color: #e6d3c6;
     height: 100vh;
-
 }
 
 .Projects .Container {
@@ -17,9 +16,6 @@
 
 }
 
-
-
-
 /******* Grid ***********/
 
 .PortfolioRow {
@@ -32,16 +28,15 @@
     display: inline-block;
     padding: 0 0 5px;
     margin: 0 1% 30px;
-    vertical-align: top;
+    vertical-align: top; 
+
 }
 
 .PortfolioItem {
     display: block;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.148438) 0 1px 2px;
     box-shadow: rgba(0, 0, 0, 0.148438) 0 1px 2px;
     padding: 0;
     margin-bottom: 10px;
-    cursor: pointer;
     position: relative;
     overflow: hidden;
 }
@@ -50,29 +45,15 @@
     max-width: 100%;
     width: 100%;
     opacity: 1.0;
-    transition: 0.3s ease-in-out;
-    -moz-transition: 0.3s ease-in-out;
-    -webkit-transition: 0.3s ease-in-out;
-}
-
-.PortfolioOverlay {
-    position: absolute;
-    background-color: rgba(26, 30, 31, 0.85);
-    width: 100%;
-    height: 100%;
-    opacity: 0;
+   
 }
 
 .PortfolioInfo {
-    position: absolute;
-    bottom: -100%;
-    left: 0;
-    background-color: #00009C;
-    color: #fff;
-    height: 45px;
-    width: 100%;
-    text-align: center;  
+    text-align: center;
 }
+
+
+
 
 
 

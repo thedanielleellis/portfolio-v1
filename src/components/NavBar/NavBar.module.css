@@ -3,18 +3,24 @@
  }
 
  .NavBar {
-     background: transparent;
-     height: 90px;
+     
+     background: #cf9f8e;
+     height: 50px;
      width: 100%;
      position: fixed;
      z-index: 999;
      display: flex; 
-     align-items: center;  
+     align-items: center; 
+    text-align: center;
+    opacity: 90%;
+
  }
- 
+
+
 
  .NavRight nav ul {
-     list-style: none;
+     list-style: none; 
+     
  }
 
  /* Makes nav bar horizonal */

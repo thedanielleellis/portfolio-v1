@@ -6,7 +6,7 @@ import pdf from './../../img/resume.pdf'
 
 const NavBar = () => {
     return (
-        <div className={classes.NavBar}>
+        <div className={classes.NavBar} id="nav">
             <div className={classes.Logo}>
                 <a href="/"><img src={logo} alt="logo" width="170" height="150"></img></a>
             </div>
@@ -26,7 +26,7 @@ const NavBar = () => {
                             <a href={pdf} target ="_blank" rel="noreferrer">Resume</a>
                         </li>
                         <li>
-                            <a href="https://dev.to/thedanielleellis" target = "_blank" rel="noreferrer"> Blog</a>
+                            <a href="https://dev.to/thedanielleellis" target="_blank" rel="noreferrer"> Blog</a>
                         </li>
                         <li>
                             <a href="/#contact">Contact</a>

@@ -5,6 +5,8 @@ import linkedin from './../../img/linkedin.png'
 import github from './../../img/github.png'
 import email from './../../img/email.png'
 import blog from './../../img/blog.png'
+import twitter from './../../img/twitter.png'
+
 
 const Contact = () => {
     return (
@@ -23,6 +25,9 @@ const Contact = () => {
                     </a>
                     <a href="https://github.com/thedanielleellis" target="_blank" rel="noopener noreferrer">
                         <img alt="github_icon" src={github} />
+                    </a>
+                    <a href="https://twitter.com/_codedani" target="_blank" rel="noopener noreferrer">
+                        <img alt="twitter_icon" src={twitter} />
                     </a>
                     <a href="https://dev.to/thedanielleellis" target="_blank" rel="noopener noreferrer">
                         <img alt="blog_icon" src={blog} />
