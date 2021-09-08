@@ -9,7 +9,7 @@ const MobileNavigation = () => {
 
     const [open, setOpen] = useState(false);
 
-    const hamberIcon = <CgMenuRound className={classes.Hamburger}
+    const hamburgerIcon = <CgMenuRound className={classes.Hamburger}
         size='40px' color='white'
         onClick={() => setOpen(!open)}
     />
@@ -23,7 +23,7 @@ const MobileNavigation = () => {
 
     return (
         <nav className={classes.MobileNavigation}>
-            {open ? closeIcon : hamberIcon}
+            {open ? closeIcon : hamburgerIcon}
             {open && <NavLinks isMobile={true} closeMobileMenu={closeMobileMenu}/>}
         </nav>
     );

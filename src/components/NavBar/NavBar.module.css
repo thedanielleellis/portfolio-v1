@@ -1,22 +1,22 @@
- .Logo img {
+ .NavBar .Logo img {
     float: left;  
  }
 
  .NavBar {
-     
      background: #cf9f8e;
      height: 80px;
      width: 100%;
      position: fixed;
      z-index: 999;
+     opacity: 0.9;
      display: flex; 
      align-items: center; 
-    text-align: center;
-    opacity: 90%;
+     /*text-align: center;*/
+     justify-content: center;
 
  }
 
- .NavRight nav ul {
+ .NavBar .NavRight nav ul {
      list-style: none; 
      margin: 0;
      padding: 0;
@@ -24,19 +24,19 @@
  }
 
  /* Makes nav bar horizonal */
- .NavRight nav ul li {
+ .NavBar .NavRight nav ul li {
      display: inline-block;
      margin: 1.5vw;
-     padding: 14px 16px;
+     /*padding: 14px 16px;*/
 
  }
 
- .NavRight nav ul li a {
+ .NavBar .NavRight nav ul li a {
      text-decoration: none;
      color: black;
  }
 
- .NavRight nav a:hover {
+ .NavBar .NavRight nav a:hover {
     border-bottom: 5px solid #d09b7a;
  } 
 
@@ -49,18 +49,18 @@
          display: none;
      }
 
-     .NavBar .MobileNagivation {
+     .NavRight .MobileNavigation {
          display: flex;
          align-items: center;
      }
 
-     .NavBar .MobileNagivation .Hamburger {
+     .NavRight .MobileNagivation .Hamburger {
         position: absolute;
         right: 5%;
         cursor: pointer;
     }
 
-    .NavBar nav ul {
+    .NavRight nav ul {
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -71,15 +71,15 @@
         border-top: 2px solid black;
     }
 
-    .NavBar nav ul li {
+    .NavRight nav ul li {
        padding-left: 15%; 
     }
 
-    .NavBar {
+    .NavRight {
         opacity: 1;
     }
 
-    .NavBar a:hover {
+    .NavRight a:hover {
         border-bottom: none;
         color: purple;
     }

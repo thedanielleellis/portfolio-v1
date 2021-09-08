@@ -7,7 +7,7 @@ const WaveLine = () => {
         initial={{strokeOpacity: 0, pathLength: 0, pathOffset: 1}}
         animate={{strokeOpacity: 1, pathLength: 1, pathOffset: 0}}
         transition={{duration: 2, ease: 'easeInOut'}}
-        stroke="#D96ED4" strokeOpacity="0.1" strokeWidth="10"/>
+        stroke="#e6d3c6" strokeOpacity="0.1" strokeWidth="10"/>
         </svg>
      );
 }

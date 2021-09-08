@@ -1,10 +1,8 @@
 .AboutMe {
     background-color: #d09b7a;
-    background-position: center;
-    background-size: cover;
     padding-bottom: 5%;
-    height: 100vh;
-    
+    background-position: center;
+    padding-top: 40px;
 
 }
 
@@ -13,16 +11,17 @@
 }
 
 .AboutMe .Container .Text {
-    width: 40%;
-    margin-left: 4%;
-    text-align: center;
-    padding-top: 80px;
+    width: 47%;
+    margin-left: 3%;
+    /*text-align: center;
+    padding-top: 80px;*/
     
 }
 
 .AboutMe .Container .Text h2 {
     font-weight: 900;
     color: black;
+    font-size: 46px;
 }
 
 .AboutMe .Container .Text p {
@@ -34,14 +33,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10%;
+    /*padding-top: 10%; */
 }
 
-.AboutMe .Container .Photo .Me {
-    width: 70%;
+.AboutMe .Container .Photo .AboutPhoto {
+    width: 60%;
     max-width: 400px;
     border-radius: 10%;
-    margin-right: -25%;
+    /*margin-right: -25%;*/
 }
 
 @media (max-width: 500px){

@@ -1,23 +1,27 @@
 .Home {
     background: #f1eae0;
     background-position: center;
+    display: flex;
+    padding-top: 60px;
 
     /*display: flex;
     height: 100vh;
-    position: relative; */
+    position: relative; 
     background-position: center;
-    background-size: cover;
-    height: 100vh;
+    background-size: cover; */
+    height: 90vh;
+    overflow: auto;
+
 }
 
 .Home .Container {
     display: flex;
     
-    /*
+    
     position: absolute;
     top: 20%;
     left: 4%;
-    display: flex;
+    /*display: flex;
     display: inline-block; */
 }
 
@@ -30,17 +34,8 @@
     width: 70%;
     margin-left: 4%;
     text-align: center;
-    padding-top: 15%;
+    padding-top: 5%;
 
-}
-
-.Home .Circle {
-    height: auto;
-    max-width: 400px;
-    position: absolute;
-    right: 1%;
-    top: 35%;
-    width: 50%;
 }
 
 
@@ -49,7 +44,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 15%;
+    padding-top: 6%;
     display:inline-block;
     
     /*

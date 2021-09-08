@@ -1,10 +1,9 @@
 .Contact {
     background: #f1eae0;
-    height: 300px;
     align-items: center;
     padding-top: 50px;
-    padding-bottom: 70px;
     text-align: center;
+    background-position: cover;
     
 }
 
@@ -43,11 +42,9 @@
 
 
 .EmailIcon {
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
+    width: 70x;
+    height: 70px;
     max-width: 100%;
-    font-size: 55px;
     text-align: center;
     vertical-align: middle;
     position: relative;
@@ -57,14 +54,15 @@
 .Footer {
     left: 0;
     bottom: 0;
-    width: 100%;
-    background-color: #cf9f8e;
     color: white;
-    text-align: left;
     opacity: 90%;
-
+    text-align: left;
+    display: flex;
+    
+    
   }
 
   .Footer p {
       margin-left: 2%;
+      color: black;
   }

@@ -1,5 +1,5 @@
 import classes from './About.module.css'
-import me from './../../img/me.jpg'
+import aboutphoto from './../../img/AboutPhoto.JPG'
 
 const About = () => {
     return ( 
@@ -14,7 +14,7 @@ const About = () => {
                     </p>
                 </div>
                 <div className={classes.Photo}>
-                    <img className={classes.Me} src={me} alt="me"></img>
+                    <img className={classes.AboutPhoto} src={aboutphoto} alt="me"></img>
                 </div>
             </div>
         </div>

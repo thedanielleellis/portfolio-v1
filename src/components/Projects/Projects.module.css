@@ -1,61 +1,58 @@
 .Projects {
-    background-color: #e6d3c6;
-    height: 80vh;
+    background: #e6d3c6;
+    padding-top: 30px;
+    height: 90vh;
+
 }
 
 .Projects .Container {
-    display: flex;
-}
-
-.Projects p {
-    text-align: center;
-    padding-top: -10%;
-    padding-bottom: 2%;
-    color: #b45118;
-    margin-left: 8vh;
-    margin-right: 8vh;
+    display: flex; 
+  
+  
 }
 
 /******* Grid ***********/
 
-.PortfolioRow {
-    margin-left: 50px;
-    margin-right: 50px;
+.Projects .Container .PortfolioRow {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.PortfolioWrapper {
+.Projects .Container .PortfolioRow .PortfolioWrapper {
     width: 31%;
     display: inline-block;
     padding: 0 0 5px;
     margin: 0 1% 30px;
-    vertical-align: top; 
+    vertical-align: top ; 
 
 }
 
-.PortfolioItem {
+.Projects .Container .PortfolioRow .PortfolioWrapper .PortfolioItem {
     display: block;
-    box-shadow: rgba(0, 0, 0, 0.148438) 0 1px 2px;
+    box-shadow: rgba(0, 0, 0, 0.148438) 0 1vh 2vh;
     padding: 0;
     margin-bottom: 10px;
     position: relative;
     overflow: hidden;
 }
 
-.PortfolioItem img {
-    max-width: 100%;
+.Projects .Container .PortfolioRow .PortfolioWrapper .PortfolioItem img {
+    max-width: 400px;
     width: 100%;
     opacity: 1.0;
+    
    
 }
 
-.PortfolioInfo {
+.Projects .Container .PortfolioRow .PortfolioWrapper .ImageLink .PortfolioInfo {
     text-align: center;
-    line-height: 1%;
+
+
 }
 
 
 
-@media (max-width: 910px) {
+@media (max-width: 500px) {
     .Projects .Container .img {
         width: 80%;
         padding-right: 20%;
@@ -69,15 +66,9 @@
     .Projects .Container {
         margin-left: 2%;
         margin-right: 2%;
+
     }
 
-    .Projects p {
-        width: 80%;
-        padding-left: 10%;
-    }
-
-    .Projects .Container {
-        margin-left: 2%;
-        margin-right: 2%;
-    }
+    
+   
 }

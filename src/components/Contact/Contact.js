@@ -12,11 +12,6 @@ import {motion} from 'framer-motion'
 const Contact = () => {
     return (
         <div className={classes.Contact} id="contact">
-            <motion.h1 
-            style={{paddingLeft: '140px'}}
-            whileHover={{scale: 1.5, x: -100}}
-            >FRAMER MOTION</motion.h1>
-
             <FaPaperPlane className={classes.EmailIcon} color='black' size='30em' style={{ padding: '1%' }} />
             <div className={classes.Text}>
                 <h1>Let's Stay Connected!</h1>
