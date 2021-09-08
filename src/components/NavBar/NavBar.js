@@ -4,6 +4,7 @@ import Navigation from './Navigation'
 import MobileNavigation from './MobileNavigation'
 
 
+
 const NavBar = () => {
     return (
         <div className={classes.NavBar}>
@@ -13,6 +14,7 @@ const NavBar = () => {
             <div className={classes.NavRight}>
                 <Navigation />
                 <MobileNavigation />
+                
             </div>
         </div>
 
