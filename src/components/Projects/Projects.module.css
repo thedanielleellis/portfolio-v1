@@ -1,14 +1,12 @@
 .Projects {
     background: #e6d3c6;
-    padding-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 50px;
     height: 90vh;
-
 }
 
 .Projects .Container {
     display: flex; 
-  
-  
 }
 
 /******* Grid ***********/
@@ -41,13 +39,31 @@
     width: 100%;
     opacity: 1.0;
     
-   
 }
 
 .Projects .Container .PortfolioRow .PortfolioWrapper .ImageLink .PortfolioInfo {
     text-align: center;
+    
+}
 
+.TechDesc {
+    text-align: center;
+}
 
+.TechDesc p{
+   color: black;
+}
+
+.TechDesc ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    justify-content: center;
+    padding-left: 8em;
+    padding-bottom: 10px;
+}
+
+.TechDesc li {
+    text-align: left;
 }
 
 

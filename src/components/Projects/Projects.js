@@ -11,6 +11,18 @@ const Projects = () => {
             <div className={classes.PageHeader}>
                 <PageHeader title={'Featured Work'} />
             </div>
+            <div className={classes.TechDesc}>
+                <p>Technologies I've been working with recently:</p>
+                    <ul>
+                        <li>Javascript</li>
+                        <li>React</li>
+                        <li>Redux</li>
+                        <li>Node.js</li>
+                        <li>Ruby</li>
+                        <li>Rails</li>
+                        <li>PostgreSQL</li>
+                    </ul>
+            </div>
             <div className={classes.Container}>
                 <div className={classes.PortfolioRow}>
                     <div className={classes.PortfolioWrapper}>

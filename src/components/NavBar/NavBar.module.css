@@ -4,29 +4,31 @@
 
  .NavBar {
      background: #cf9f8e;
-     height: 80px;
+     height: 70px;
      width: 100%;
      position: fixed;
      z-index: 999;
      opacity: 0.9;
      display: flex; 
      align-items: center; 
-     /*text-align: center;*/
-
+     /*text-align: center;
+     justify-content: center;*/
  }
 
- .NavBar .NavRight nav ul {
+ .NavBar .NavRight .Navigation nav ul {
      list-style: none; 
      margin: 0;
-     padding: 0;
-     
+     padding: 0;   
+     text-align: right;  
+     height: 20px;
+     float: right;
  }
 
  /* Makes nav bar horizonal */
  .NavBar .NavRight nav ul li {
      display: inline-block;
      margin: 1.5vw;
-     /*=padding: 14px 16px;*/
+     padding: 14px 16px;
 
  }
 
@@ -36,7 +38,7 @@
  }
 
  .NavBar .NavRight nav a:hover {
-    border-bottom: 5px solid #d09b7a;
+    border-bottom: 5px solid #f1eae0;
  } 
 
  .NavBar .MobileNavigation {
@@ -48,17 +50,22 @@
  @media (max-width: 884px) {
      .NavBar .NavRight .Navigation {
          display: none;
+         
      }
 
      .NavRight .MobileNavigation {
          display: flex;
          align-items: center;
+      
+
+         
      }
 
      .NavRight .MobileNagivation .Hamburger {
         position: absolute;
         right: 5%;
         cursor: pointer;
+        
     }
 
     .NavBar .NavRight nav ul {

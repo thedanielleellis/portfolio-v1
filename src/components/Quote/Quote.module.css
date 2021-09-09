@@ -15,7 +15,7 @@
 }
 
 .Quote p {
-    font-size: calc(0.85rem + 1vw);
+    font-size: calc(0.85rem + 0.8vw);
     color: #b45118;
     text-align: center;
 

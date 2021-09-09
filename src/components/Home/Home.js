@@ -10,8 +10,7 @@ const Home = () => {
             <div className={classes.Container}>
                 <div className={classes.Welcome}>
                     <h1>WELCOME!</h1>
-                    <h1>I Building Robust Applications For Next Gens </h1>
-                    
+                    <h1>I Build Robust Web Applications For Next-Gens </h1>
                 </div>
             <div className={classes.HeaderPhotos}>
                 <motion.img className={classes.Headshot} 
