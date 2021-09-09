@@ -1,68 +1,19 @@
 .Projects {
-    background: #e6d3c6;
-    padding-top: 10px;
-    padding-bottom: 100px;
-    height: 90vh;
+    background-color: #e6d3c6;
+    padding-bottom: 5%;
+    padding-top: 3%;
 }
 
-.Projects .Container {
+.Projects p {
+    padding-left: 25%;
+    width: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
     text-align: center;
 }
 
-/******* Grid ***********/
-
-.Projects .Container .PortfolioRow {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.Projects .Container .PortfolioRow .PortfolioWrapper {
-    width: 25%;
-    display: inline-block;
-    padding: 0 0 5px;
-    margin: 0 1% 30px;
-    vertical-align: top ;
- 
-}
-
-.Projects .Container .PortfolioRow .PortfolioWrapper .PortfolioItem {
-    display: block;
-    box-shadow: rgba(0, 0, 0, 0.148438) 0 1vh 2vh;
-    padding: 0;
-    margin-bottom: 10px;
-    position: relative;
-    overflow: hidden;
-    
-}
-
-
-.Projects .Container .PortfolioRow .PortfolioWrapper .PortfolioItem img {
-    max-width: 400px;
-    width: 100%;
-    opacity: 1.0;
-}
-
-
-
-.Projects .Container .PortfolioRow .PortfolioWrapper .ImageLink .PortfolioInfo {
-    text-align: center;
-
-}
-
-.Projects .Container .PortfolioRow .PortfolioWrapper .ImageLink .PortfolioInfo h4 {
-    color: #b45118;
-}
-
-
-.TechDesc {
-    text-align: center;
-}
-
-.TechDesc p{
-   color: black;
-}
-
-.TechDesc ul {
+.Projects .TechDesc ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));
     justify-content: center;
@@ -70,19 +21,60 @@
     padding-bottom: 10px;
 }
 
-.TechDesc li {
-    text-align: left;
+.Projects .List ul {
+    color: black;
+    list-style-type: none;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.Projects .List ul li {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.Projects .Container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 5%;
+    width: 100%;
+    justify-content: center;
+
+
+}
+
+.Projects .Container .List {
+    flex-basis: 23%;
+    background-color: #e6d3c6;
+    box-shadow: rgba(0, 0, 0, 0.148438) 0 1vh 2vh;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+
+}
+
+.Projects .Container img {
+    width: 400px;
+    height: 200px;
+    border-radius: 3%;
 }
 
 
-
-@media (max-width: 910px) {
+@media (max-width: 900px) {
     .Projects .Container .img {
         width: 80%;
         padding-right: 20%;
     }
+}
 
-    .Projects p{
+@media (max-width: 374px) {
+    .Projects .Container .List {
+        flex-basis: 49%;     
+    }
+
+    .Projects p {
         width: 80%;
         padding-left: 10%;
     }
@@ -90,6 +82,5 @@
     .Projects .Container {
         margin-left: 2%;
         margin-right: 2%;
-
     }   
-}
+} 
