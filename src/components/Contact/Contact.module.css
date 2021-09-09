@@ -1,68 +1,63 @@
 .Contact {
-    background: #f1eae0;
-    align-items: center;
-    padding-top: 50px;
-    text-align: center;
-    background-position: cover;
-    
+  background: #f1eae0;
+  align-items: center;
+  padding-top: 50px;
+  text-align: center;
+  background-position: cover;
 }
 
 .Contact .ContactIcons {
-    width: 100%;
-    text-align: center;
-    font-size: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0;
 }
 
 .Contact .ContactIconsWrapper {
-    display: inline-block;
-    margin: 0 auto;
-    font-size: 0;
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 0;
 }
 
 .Contact .ContactIconsWrapper a {
-    display: inline-block;
-    margin: 0 5px;
-    font-size: auto;
+  display: inline-block;
+  margin: 0 5px;
+  font-size: auto;
 }
 
 .Contact .ContactIconsWrapper img {
-    height: 50px;
-    width: 50px;
-    transition: all .2s ease-in-out;
+  height: 50px;
+  width: 50px;
+  transition: all 0.2s ease-in-out;
 }
 
 .Contact .ContactIconsWrapper img:hover {
-    transform: scale(1.5);
-
+  transform: scale(1.5);
 }
 
 .Contact .ContactIcons svg path {
-   cursor: pointer;
+  cursor: pointer;
 }
 
-
 .EmailIcon {
-    width: 70x;
-    height: 70px;
-    max-width: 100%;
-    text-align: center;
-    vertical-align: middle;
-    position: relative;
-    margin: 0 auto 10px;
+  width: 70x;
+  height: 70px;
+  max-width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  margin: 0 auto 10px;
 }
 
 .Footer {
-    left: 0;
-    bottom: 0;
-    color: white;
-    opacity: 90%;
-    text-align: left;
-    display: flex;
-    
-    
-  }
+  left: 0;
+  bottom: 0;
+  color: white;
+  opacity: 90%;
+  text-align: left;
+  display: flex;
+}
 
-  .Footer p {
-      margin-left: 2%;
-      color: black;
-  }
+.Footer p {
+  margin-left: 2%;
+  color: black;
+}

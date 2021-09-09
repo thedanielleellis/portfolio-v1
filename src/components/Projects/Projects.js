@@ -1,11 +1,11 @@
-import classes from './Projects.module.css'
+import styles from './Projects.module.css'
 import PageHeader from './../PageHeader/PageHeader.js'
 import portfolio from './../../img/portfolio.png'
 import hiddengems from './../../img/hiddengems.png'
 import virtualdance from './../../img/virtualdance.png'
 import { motion } from 'framer-motion'
 
-const listTitleStyle = { fontWeight: 900, color: '#b45118', marginBottom: '4px', fontSize: '18px'}
+const listTitleStyle = { fontWeight: 900, color: '#b45118', marginBottom: '4px', fontSize: '18px' }
 
 
 const project1 =
@@ -36,7 +36,7 @@ const project3 =
         <ul>
             <li style={listTitleStyle}>Virtual Dance Machine</li>
             <li>Ruby on Rails - PostgreSQL - JavaScript</li>
-            <li>Bootstrap - ActiveRecord</li>        
+            <li>Bootstrap - ActiveRecord</li>
         </ul>
     </div>
 
@@ -45,9 +45,9 @@ const totalProjects = [project1, project2, project3]
 
 const Projects = () => {
     return (
-        <div className={classes.Projects} id="projects">
+        <div className={styles.Projects} id="projects">
             <PageHeader title={'Featured Work'} />
-            <div className={classes.TechDesc}>
+            <div className={styles.TechDesc}>
                 <p>Technologies I've been working with recently:</p>
                 <ul>
                     <li>JavaScript</li>
@@ -59,10 +59,10 @@ const Projects = () => {
                     <li>PostgreSQL</li>
                 </ul>
             </div>
-            <div className={classes.Container}>
+            <div className={styles.Container}>
                 {totalProjects.map(projects => {
                     return (
-                        <motion.div className={classes.List}
+                        <motion.div className={styles.List}
                             whileHover={{
                                 scale: 1.1,
                                 textShadow: "0px 0px 8px rgb(255, 255, 255)",

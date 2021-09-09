@@ -1,97 +1,81 @@
- .NavBar .Logo img {
-    float: left;  
- }
+.NavBar .Logo img {
+  float: left;
+}
 
- .NavBar {
-     background: #cf9f8e;
-     height: 70px;
-     width: 100%;
-     z-index: 999;
-     opacity: 0.9;
-     display: flex; 
-     align-items: center; 
-     position: fixed;
-     
- }
+.NavBar {
+  background: #cf9f8e;
+  height: 70px;
+  width: 100%;
+  z-index: 999;
+  opacity: 0.9;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
 
- .NavBar .NavRight .Navigation nav ul {
-     list-style: none; 
-     margin: 0;
-     padding: 0;   
-     /*
-     text-align: right;  
-     height: 20px;
-     float: right; */
- }
+.NavBar .NavRight .Navigation nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
- /* Makes nav bar horizonal */
- .NavBar .NavRight nav ul li {
-     display: inline-block;
-     margin: 1.5vw;
-     padding: 14px 16px;
+.NavBar .NavRight nav ul li {
+  display: inline-block;
+  margin: 1.5vw;
+  padding: 14px 16px;
+}
 
- }
+.NavBar .NavRight nav ul li a {
+  text-decoration: none;
+  color: black;
+}
 
- .NavBar .NavRight nav ul li a {
-     text-decoration: none;
-     color: black;
- }
+.NavBar .NavRight nav a:hover {
+  border-bottom: 5px solid #f1eae0;
+}
 
- .NavBar .NavRight nav a:hover {
-    border-bottom: 5px solid #f1eae0;
- } 
+.NavBar .MobileNavigation {
+  display: none;
+}
 
- .NavBar .MobileNavigation {
-     display: none;
- }
+@media (max-width: 990px) {
+  .NavBar .NavRight .Navigation {
+    display: none;
+    z-index: 999;
+  }
 
+  .NavRight .MobileNavigation {
+    display: flex;
+    align-items: center;
+  }
 
- @media (max-width: 990px) {
-     .NavBar .NavRight .Navigation {
-         display: none;
-         z-index: 999;
+  .NavRight .MobileNagivation .Hamburger {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+  }
 
-         
-     }
+  .NavBar .NavRight nav ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 100%;
+    background: #cf9f8e;
+    border-top: 2px solid black;
+  }
 
-     .NavRight .MobileNavigation {
-         display: flex;
-         align-items: center;    
-     }
+  .NavRight nav ul li {
+    padding-left: 15%;
+  }
 
-     .NavRight .MobileNagivation .Hamburger {
-        position: absolute;
-        right: 5%;
-        cursor: pointer;    
-    }
+  .NavRight {
+    opacity: 1;
+  }
 
-    .NavBar .NavRight nav ul {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 80px;
-        right: 0;
-        width: 100%;
-        background: #cf9f8e;
-        border-top: 2px solid black;
-    }
-
-    .NavRight nav ul li {
-       padding-left: 15%; 
-    }
-
-    .NavRight {
-        opacity: 1;
-    }
-
-    .NavRight a:hover {
-        border-bottom: none;
-        color: white;
-    }
-
- }
-
-
- 
-
- 
+  .NavRight a:hover {
+    border-bottom: none;
+    color: white;
+  }
+}

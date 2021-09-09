@@ -1,63 +1,55 @@
 .AboutMe {
-    background-color: #d09b7a;
-    padding-bottom: 5%;
-    background-position: center;
-    padding-top: 40px;
+  background-color: #d09b7a;
+  padding-bottom: 5%;
+  background-position: center;
+  padding-top: 40px;
 }
 
 .AboutMe .Container {
-    display: flex;
+  display: flex;
 }
 
 .AboutMe .Container .Text {
-    width: 50%;
-    margin-left: 3%;
-    /*text-align: center;
-    padding-top: 80px;*/
-    
+  width: 50%;
+  margin-left: 3%;
 }
 
 .AboutMe .Container .Text h2 {
-    font-weight: 900;
-    color: black;
-    font-size: 46px;
+  font-weight: 900;
+  color: black;
+  font-size: 46px;
 }
 
 .AboutMe .Container .Text p {
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.3;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.3;
 }
 
 .AboutMe .Container .Photo {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*padding-top: 10%; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .AboutMe .Container .Photo .AboutPhoto {
-    width: 60%;
-    max-width: 400px;
-    border-radius: 10%;
-    /*margin-right: -25%;*/
+  width: 60%;
+  max-width: 400px;
+  border-radius: 10%;
 }
 
-@media (max-width: 500px){
-    .AboutMe .Container {
-        flex-direction: column;
-        align-items: center;
-    }
+@media (max-width: 500px) {
+  .AboutMe .Container {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .AboutMe .Container .Text {
-        width: 80%;
-    }
+  .AboutMe .Container .Text {
+    width: 80%;
+  }
 
-    .AboutMe .Container .Photo {
-        width: 70%;
-    }
-
-    
+  .AboutMe .Container .Photo {
+    width: 70%;
+  }
 }
-

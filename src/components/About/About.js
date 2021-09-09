@@ -1,11 +1,11 @@
-import classes from './About.module.css'
+import styles from './About.module.css'
 import aboutphoto from './../../img/AboutPhoto.JPG'
 
 const About = () => {
     return ( 
-        <div className={classes.AboutMe} id="about">
-            <div className={classes.Container}>
-                <div className={classes.Text}>
+        <div className={styles.AboutMe} id="about">
+            <div className={styles.Container}>
+                <div className={styles.Text}>
                     <h2>Hello! I am Danielle.</h2>
                     <p>
                         I am a creative Software Engineer based in Dallas, TX with a passion for applying new cutting-edge technologies to enhance the innovative atmosphere of a business. 
@@ -21,8 +21,8 @@ const About = () => {
                     </p>
                 
                 </div>
-                <div className={classes.Photo}>
-                    <img className={classes.AboutPhoto} src={aboutphoto} alt="me"></img>
+                <div className={styles.Photo}>
+                    <img className={styles.AboutPhoto} src={aboutphoto} alt="me"></img>
                 </div>
             </div>
         </div>
