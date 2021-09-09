@@ -6,7 +6,6 @@ import github from './../../img/github.png'
 import email from './../../img/email.png'
 import blog from './../../img/blog.png'
 import twitter from './../../img/twitter.png'
-import {motion} from 'framer-motion'
 
 
 const Contact = () => {

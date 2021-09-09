@@ -1,12 +1,12 @@
 .Projects {
     background: #e6d3c6;
     padding-top: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     height: 90vh;
 }
 
 .Projects .Container {
-    display: flex; 
+    text-align: center;
 }
 
 /******* Grid ***********/
@@ -17,12 +17,12 @@
 }
 
 .Projects .Container .PortfolioRow .PortfolioWrapper {
-    width: 31%;
+    width: 25%;
     display: inline-block;
     padding: 0 0 5px;
     margin: 0 1% 30px;
-    vertical-align: top ; 
-
+    vertical-align: top ;
+ 
 }
 
 .Projects .Container .PortfolioRow .PortfolioWrapper .PortfolioItem {
@@ -32,19 +32,27 @@
     margin-bottom: 10px;
     position: relative;
     overflow: hidden;
+    
 }
+
 
 .Projects .Container .PortfolioRow .PortfolioWrapper .PortfolioItem img {
     max-width: 400px;
     width: 100%;
     opacity: 1.0;
-    
 }
+
+
 
 .Projects .Container .PortfolioRow .PortfolioWrapper .ImageLink .PortfolioInfo {
     text-align: center;
-    
+
 }
+
+.Projects .Container .PortfolioRow .PortfolioWrapper .ImageLink .PortfolioInfo h4 {
+    color: #b45118;
+}
+
 
 .TechDesc {
     text-align: center;
@@ -68,7 +76,7 @@
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 910px) {
     .Projects .Container .img {
         width: 80%;
         padding-right: 20%;

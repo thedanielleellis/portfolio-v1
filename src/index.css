@@ -3,6 +3,8 @@ body {
   font-family: 'Oranienbaum', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+
 }
 
 
@@ -10,6 +12,8 @@ body {
 html {
   scroll-behavior: smooth;
   font-size: 14px;
+  overflow-x: hidden;
+
 }
 
 h1 {
@@ -40,10 +44,6 @@ li {
   font-size: calc(0.6rem + 1vw);
 }
 
-html {
-  scroll-behavior: smooth;
-  font-size: 14px;
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
