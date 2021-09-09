@@ -50,7 +50,7 @@ const Projects = () => {
             <div className={classes.TechDesc}>
                 <p>Technologies I've been working with recently:</p>
                 <ul>
-                    <li>Javascript</li>
+                    <li>JavaScript</li>
                     <li>React</li>
                     <li>Redux</li>
                     <li>Node.js</li>
