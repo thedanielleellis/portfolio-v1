@@ -10,7 +10,7 @@ const listTitleStyle = { fontWeight: 900, color: '#b45118', marginBottom: '4px',
 
 const project1 =
     <div>
-        <a href="https://dev.to/thedanielleellis"><img src={portfolio} alt="portfolio project" target="_blank" rel="noreferrer"></img></a>
+        <a href="https://danielle-ellis-v0-porfolio.netlify.app/"><img src={portfolio} alt="portfolio project" target="_blank" rel="noreferrer"></img></a>
         <ul>
             <li style={listTitleStyle}>Portfolio Website Early Version</li>
             <li>Ruby on Rails API - React/Redux</li>

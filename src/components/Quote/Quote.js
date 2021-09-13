@@ -6,9 +6,9 @@ const Quote = () => {
         <div className={styles.Quote}>
             <div className={styles.Container}>
                 <div className={styles.Text}>
-                    <p><em>"Go looking for the best in people, and you’ll be amazed at how much talent, ingenuity, empathy and good will you’ll find."
+                    <p><em>"Believe you can and you're halfway there."
                         <br />
-                        – Bob Burg, The Go-Giver</em>.</p>
+                        – Theodore Roosevelt </em>.</p>
                 </div>
             </div>
         </div>
