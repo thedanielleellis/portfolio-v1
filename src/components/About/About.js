@@ -17,7 +17,7 @@ const About = () => {
                         In the last 3 years, I've had the privilege of working as an Executive Admin Assistant where I worked hand-in-hand with the Software Engineering Department to review and give feedback for healthcare database structures and I designed custom marketing materials such as global weekly newsletters, email campaigns, and websites.
                     </p>
                     <p> 
-                        Fast-forward to today, my recently finished Full-Stack Software Engineering program experience with Flatiron School has shaped my coding knowledge with object-oriented programming, user interfaces, wireframes, Javascript, Ruby, Rails, among other areas. I’m excited to combine my experience in business administration and entrepreneurship with my software development skills! 
+                        Fast-forward to today, my recently finished Full-Stack Software Engineering program experience with Flatiron School has shaped my coding knowledge with object-oriented programming, user interfaces, wireframes, Javascript, Ruby, Rails, among other areas. I am currently diving into the world of Java and its latest technologies. I’m excited to combine my experience in business administration and entrepreneurship with my software development skills! 
                     </p>
                 
                 </div>
