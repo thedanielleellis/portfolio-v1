@@ -21,7 +21,7 @@ const project1 =
 
 const project2 =
     <div>
-        <a href="https://dev.to/thedanielleellis"><img src={hiddengems} alt="hidden gems project" target="_blank" rel="noreferrer"></img></a>
+        <a href="https://github.com/thedanielleellis/HiddenGemsMentorship"><img src={hiddengems} alt="hidden gems project" target="_blank" rel="noreferrer"></img></a>
         <ul>
             <li style={listTitleStyle}>Hidden Gems Mentorship</li>
             <li>Ruby on Rails - JavaScript</li>
@@ -32,7 +32,7 @@ const project2 =
 
 const project3 =
     <div>
-        <a href="https://dev.to/thedanielleellis"><img src={virtualdance} alt="virtual dance project" target="_blank" rel="noreferrer"></img></a>
+        <a href="https://github.com/thedanielleellis/Virtual-Dance-Machine"><img src={virtualdance} alt="virtual dance project" target="_blank" rel="noreferrer"></img></a>
         <ul>
             <li style={listTitleStyle}>Virtual Dance Machine</li>
             <li>Ruby on Rails - PostgreSQL - JavaScript</li>

@@ -34,9 +34,10 @@
 }
 
 .AboutMe .Container .Photo .AboutPhoto {
-  width: 60%;
+  width: 100%;
   max-width: 400px;
   border-radius: 10%;
+  height: 40%;
 }
 
 @media (max-width: 500px) {

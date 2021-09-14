@@ -1,5 +1,5 @@
 import styles from './About.module.css'
-import aboutphoto from './../../img/AboutPhoto.JPG'
+import readingphoto from './../../img/reading.JPG'
 
 const About = () => {
     return ( 
@@ -22,7 +22,7 @@ const About = () => {
                 
                 </div>
                 <div className={styles.Photo}>
-                    <img className={styles.AboutPhoto} src={aboutphoto} alt="me"></img>
+                    <img className={styles.AboutPhoto} src={readingphoto} alt="me"></img>
                 </div>
             </div>
         </div>
