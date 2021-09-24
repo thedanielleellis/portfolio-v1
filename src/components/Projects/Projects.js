@@ -3,12 +3,24 @@ import PageHeader from './../PageHeader/PageHeader.js'
 import portfolio from './../../img/portfolio.png'
 import hiddengems from './../../img/hiddengems.png'
 import virtualdance from './../../img/virtualdance.png'
+import skinology from './../../img/skinology.png'
 import { motion } from 'framer-motion'
 
 const listTitleStyle = { fontWeight: 900, color: '#b45118', marginBottom: '4px', fontSize: '18px' }
 
 
 const project1 =
+    <div>
+        <a href="https://skinology.netlify.app/"><img src={skinology} alt="skinology project" target="_blank" rel="noreferrer"></img></a>
+        <ul>
+            <li style={listTitleStyle}>E-Commerce Website: Skinology</li>
+            <li>React - JavaScript - Commerce.js</li>
+            <li>Stripe</li>
+
+        </ul>
+    </div>
+
+const project2 =
     <div>
         <a href="https://danielle-ellis-v0-porfolio.netlify.app/"><img src={portfolio} alt="portfolio project" target="_blank" rel="noreferrer"></img></a>
         <ul>
@@ -19,7 +31,7 @@ const project1 =
         </ul>
     </div>
 
-const project2 =
+const project3 =
     <div>
         <a href="https://github.com/thedanielleellis/HiddenGemsMentorship"><img src={hiddengems} alt="hidden gems project" target="_blank" rel="noreferrer"></img></a>
         <ul>
@@ -30,7 +42,7 @@ const project2 =
         </ul>
     </div>
 
-const project3 =
+const project4 =
     <div>
         <a href="https://github.com/thedanielleellis/Virtual-Dance-Machine"><img src={virtualdance} alt="virtual dance project" target="_blank" rel="noreferrer"></img></a>
         <ul>
@@ -40,7 +52,7 @@ const project3 =
         </ul>
     </div>
 
-const totalProjects = [project1, project2, project3]
+const totalProjects = [project1, project2, project3, project4]
 
 
 const Projects = () => {
@@ -50,13 +62,20 @@ const Projects = () => {
             <div className={styles.TechDesc}>
                 <p>Technologies I've been working with recently:</p>
                 <ul>
-                    <li>JavaScript</li>
+                    <li>Java</li>
+                    <li>Ruby</li>
+                    <li>Rails</li>
+                    <li>JavaScript(AJAX/JSON)</li>
+                    <li>jQuery</li>
                     <li>React</li>
                     <li>Redux</li>
                     <li>Node.js</li>
-                    <li>Ruby</li>
-                    <li>Rails</li>
                     <li>PostgreSQL</li>
+                    <li>Sinatra</li>
+                    <li>HTML/CSS</li>
+                    <li>Bootstrap</li>
+                    <li>Git</li>
+
                 </ul>
             </div>
             <div className={styles.Container}>
