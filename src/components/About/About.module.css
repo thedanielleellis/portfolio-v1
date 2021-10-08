@@ -12,6 +12,8 @@
 .AboutMe .Container .Text {
   width: 100%;
   margin-left: 3%;
+  margin-right: 3%;
+
 }
 
 .AboutMe .Container .Text h2 {
